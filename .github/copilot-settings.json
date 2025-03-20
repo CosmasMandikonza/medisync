@@ -1,0 +1,31 @@
+{
+    "github-copilot.enable": {
+      "*": true,
+      "plaintext": true,
+      "markdown": true,
+      "csharp": true,
+      "typescript": true,
+      "javascript": true
+    },
+    "github-copilot.listCount": 10,
+    "github-copilot.enableAutoCompletions": true,
+    "github-copilot.inlineSuggestCount": 5,
+    "github-copilot.advanced": {
+      "secret.importOnStartup": [
+        "backend/Models/*.cs",
+        "backend/Services/OpenAIService.cs",
+        "backend/Services/SpeechService.cs"
+      ],
+      "length": 800
+    },
+    "medisync-specific.prefixes": {
+      "medical-services": [
+        "// Medical service for processing patient data",
+        "// HIPAA-compliant healthcare service"
+      ],
+      "azure-integration": [
+        "// Azure OpenAI integration for medical transcription",
+        "// Azure Speech Service for clinical voice processing"
+      ]
+    }
+  }
